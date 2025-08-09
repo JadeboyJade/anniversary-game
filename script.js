@@ -2,12 +2,12 @@ const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
 const playerImg = new Image();
-playerImg.src = "images/bara.png";
+playerImg.src = "bara.png";
 
 const girlImg = new Image();
-girlImg.src = "images/demi.png";
+girlImg.src = "demi.png";
 
-const kissAudio = new Audio("audio/kiss.mp3");
+const kissAudio = new Audio("kiss.mp3");
 
 let player = {
   x: 50,
@@ -157,3 +157,4 @@ function startGame() {
 }
 
 startGame();
+
